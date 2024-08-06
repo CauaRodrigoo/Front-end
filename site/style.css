@@ -1,3 +1,12 @@
+header {
+    background-color: black;
+    display: flex;
+    margin: 5;
+}
+#umbro {
+    width: 70px;
+    height: 70px;
+}
 #a1 {
     display: flex;
     flex-wrap: wrap;
@@ -6,13 +15,13 @@
 }
 
 #ladoA {
-    border: 2px solid #000f;
+    border: 2px solid rgb(255, 255, 255);
     width: 48%;
     min-width:400px ;
     text-align: center;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(129, 129, 129);
 }
 #ladoB {
     border: 2px solid rgb(255, 251, 251);
@@ -25,6 +34,35 @@ img {
     width: 95%;
 }
 p {
-    font-size: 30px;
-    color: rgb(255, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: white;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+#promoPai {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+}
+h2 {
+    color: aliceblue;
+}
+
+#umbro {
+    margin-right: 50px;
+}
+#cabecalho {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-block: auto;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
 }
