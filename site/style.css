@@ -36,16 +36,16 @@ p {
 }
 
 #ladoA {
-    border: 2px solid rgb(255, 255, 255);
+    /*border: 6px solid rgb(0, 0, 0);*/
     width: 48%;
     min-width:400px ;
     text-align: center;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(129, 129, 129);
+    
 }
 #ladoB {
-    border: 2px solid rgb(255, 251, 251);
+    /*border: 6px solid rgb(0, 0, 0);*/
     width: 48%;
     min-width:400px ;
 }
@@ -87,4 +87,10 @@ a {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+footer {
+    background-color: black;
+    display: flex;
+    margin: 5;
+    text-align: center;
 }
