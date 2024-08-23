@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     background-color: black;
     display: flex;
@@ -81,6 +87,11 @@ body {
 a {
     color: aliceblue;
     text-decoration: none;
+}
+
+#header-imagem-fundo{
+    background-image: url(img/header-imagem-fundo.jpg);
+
 }
 
 #a1 {
