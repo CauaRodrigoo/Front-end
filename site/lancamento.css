@@ -1,0 +1,16 @@
+#cabecalho {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-block: auto;
+}
+header {
+    background-color: black;
+    display: flex;
+    margin: 5;
+}
+#umbro {
+    width: 70px;
+    height: 70px;
+}

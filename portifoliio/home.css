@@ -1,0 +1,8 @@
+header {
+    background-color: black;
+    display: flex;
+    margin: 5;
+}
+body{
+    background-color: rgb(56, 56, 56);
+}
