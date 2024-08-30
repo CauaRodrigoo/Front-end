@@ -1,0 +1,179 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Seção Minha História */
+#minha-historia {
+    background: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#minha-historia h2 {
+    margin-bottom: 1rem;
+}
+
+#minha-historia img {
+    margin-top: 1.5rem;
+    border-radius: 50%;
+}
+
+/* Seção Habilidades */
+#habilidades {
+    background: #f8f8f8;
+    padding: 4rem 2rem;
+    text-align: left;
+}
+
+#habilidades h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#habilidades ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+#habilidades ul li {
+    margin-bottom: 0.75rem;
+}
+
+/* Seção Experiência */
+#experiencia {
+    background: #fff;
+    padding: 4rem 2rem;
+    text-align: left;
+}
+
+#experiencia h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.experiencia-item {
+    margin-bottom: 2rem;
+}
+
+.experiencia-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Seção Contato */
+#contato {
+    background: #f8f8f8;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    #minha-historia, #habilidades, #experiencia, #contato {
+        padding: 3rem 1rem;
+    }
+
+    .experiencia-item h3 {
+        font-size: 1.3rem;
+    }
+}
