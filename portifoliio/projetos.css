@@ -1,0 +1,115 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #eaeaea;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Cabeçalho */
+header {
+    background: #444;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* Projetos */
+.projetos {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.projetos h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.projeto-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.projeto-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projeto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.projeto-item h3 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.projeto-item p {
+    color: #555;
+    margin-top: 0.75rem;
+}
+
+/* Rodapé */
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
